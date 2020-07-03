@@ -1,0 +1,46 @@
+.profpic{
+	border: 1px solid;
+	margin: 0px;
+}
+.profpic img{
+	height: 200px;
+	width: 200px;
+	padding: 10px;
+}
+.butnbox{
+	margin-top: -18px;
+}
+.sbtn1{background: red;}
+.sbtn2{background: green;}
+.sbtn3{background: blue;}
+.ubtn{
+	border: none;
+	background: yellow;
+	margin: 10px;
+	padding: 5px 25px;
+}
+.stdprofbtn{
+	font-size: 16px; 
+	border: none;
+	padding: 5px 10px;
+	background: red;
+	color: white;
+	
+	z-index: 1;
+}
+.stdprofbtn:hover{
+	opacity: 1;
+}
+
+
+.stdprofilebox{
+	border: 1px solid;
+	margin-top: 30px; 
+}
+.stddatabox ul{
+	list-style: none;
+}
+.stddatabox ul li{
+	border: 1px solid;
+	padding: 5px;
+}

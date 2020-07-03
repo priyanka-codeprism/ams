@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>new home Page 1</title>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+     <link href="../fontawesome-free-5.13.0-web/fontawesome/css/all.css" rel="stylesheet">
+     <link href="../fontawesome-free-5.13.0-web/fontawesome/css/fontawesome.min.css" rel="stylesheet">
+     <link rel="stylesheet" href="css/headerAndFooter.css">
+      <link rel="stylesheet" href="css/stylehomepagenew1.css">
+
+      <script type="text/javascript" src="js/clock.js"></script>
+</head>
+<body onLoad="initClock()">
+	<header class="header">
+		<nav class="navbar navbar-expand-lg  navbar-dark fixed-top  ">
+			<div class="container">
+			  <div class="navbar-brand ">
+	             <img src="image/fm.png" width="90" height="90" class="d-inline-block align-top" alt="">
+	              <span class="navbar-text" style="color:white">Fakir Mohan University<br> Balasore</label>
+	          </div>
+	          <div class=" clock justify-content-center" >
+	             <div class="clockbg">
+	                  <div id="timedate">
+	                       <a id="mon">January</a>
+	                       <a id="d">1</a>,
+	                       <a id="y">0</a><br/>
+	                       <a id="h">12</a> :
+	                       <a id="m">00</a>:
+	                       <a id="s">00</a>
+	                    </div>
+	                  </div>
+	             </div>
+
+			  <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			   <span class="navbar-toggler-icon "></span>
+			  </button>
+			  
+
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			    <ul class="navbar-nav ml-auto  ">
+			      <li class="nav-item">
+			        <span><i class="fas fa-school"></i></span>&nbsp;&nbsp;<a class="" href="#" onclick="openNav()" >Department</a>
+			          <div id="myNav" class="overlay">
+		                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		                 <div class="overlay-content">
+		                    <a  href="ictdeptnew.html">Department of information and Communication Technology</a>
+		                    <a  href="#">Department of Businss Management</a>
+		                    <a  href="#">Department of Applied physics And Ballastics</a>
+		                    <a  href="#">Department of  Education </a>
+		                    <a  href="#">Department of  BioScience and Biotechnology</a>
+		                    <a  href="#">Department of environmental Science</a>
+		                    <a  href="#">Department of Social Science</a>
+		                    <a  href="#">Department of Population studies</a>
+		                    <a  href="#">Department of Language and Literature</a>
+		  
+                          </div>
+                        </div>
+						<script>
+							function openNav() {
+							  document.getElementById("myNav").style.width = "100%";
+							}
+
+							function closeNav() {
+							  document.getElementById("myNav").style.width = "0%";
+							}
+						</script>       
+			      </li>
+			      <li class="nav-item active">
+			       <span> <i class="fas fa-house-user"></i></span>&nbsp;&nbsp;<a class="" href="#">Home <span class="sr-only">(current)</span></a>
+			      </li>
+			      <li class="nav-item">
+			        <span><i class="fas fa-address-card"></i></span>&nbsp;&nbsp;<a class="" href="aboutpage.html">About</a>
+			      </li>
+			      <li class="nav-item">
+			        <span><i class="fas fa-address-book"></i></span>&nbsp;&nbsp;<a class="" href="#">Contact</a>
+			      </li>
+			    </ul>
+			  </div>
+			</div>
+         </nav>
+     
+	<!--<img src="image/fmugate3.jpg" class="image-fluid" width="100%" height="30%">-->
+</header>
+<!---------------------------header end-------------------------------------> 
+<main>
+    <section class="section1">
+            <div class="container1">
+                 <div class="row">
+                    <div class="col-md-8 col-sm-12 left">
+                      <h1>Student Attendance Management System</h1>
+                    </div>
+                    <div class="col-md-3 col-sm-12 right">
+                      <img src="image/stdimg2.png">
+                    </div>
+                </div>
+              <div class="row container2">
+                  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                      <ol class="carousel-indicators">
+                          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                      </ol>
+                      <div class="carousel-inner row">
+                          <div class="carousel-item active  ">
+                            <div class="row">
+                                 <div class=" col-lg-4 col-md-4 col-sm-12 dept ">
+                                    <img src="image/bm2.jpg" class="d-block " alt="...">
+                                    <p>Department of Business Management</p>
+                                 </div>
+                                 <div class=" col-lg-4 col-md-4 col-sm-12 dept ">
+                                    <img src="image/ict.jpg" class="d-block " alt="...">             
+                                   <a href="ictdeptnew.html"> <p>Department of information and Communication Technology</p></a>
+                                 </div>
+                                 <div class=" col-lg-4 col-md-4 col-sm-12 dept ">
+                                    <img src="image/apab.jpg" class="d-block " alt="...">
+                                    <p>Department of Applied Physics And Ballastics</p>
+                                 </div>
+                              </div>
+                          </div>
+                          <div class="carousel-item ">
+                            <div class="row">
+                               <div class=" col-lg-4 col-md-4 col-sm-12 dept ">
+                                   <img src="image/bm.jpg" class="d-block " alt="...">
+                                   <p>Department of Education</p>
+                               </div>
+                               <div class=" col-lg-4 col-md-4 col-sm-12 dept ">
+                                   <img src="image/bsbt.jpg" class="d-block " alt="...">
+                                   <p>Department of BioScience And BioTechnology</p>
+                                </div>
+                                <div class=" col-lg-4 col-md-4 col-sm-12 dept ">
+                                   <img src="image/population.jpg" class="d-block " alt="...">
+                                   <p>Department of Population</p>
+                               </div>
+                             </div>
+                          </div>
+                          <div class="carousel-item ">
+                            <div class="row">
+                              <div class=" col-lg-4 col-md-4 col-sm-12 dept ">
+                                  <img src="image/llt1.jpg" class="d-block " alt="...">
+                                  <p>Department of Language And Literature</p>
+                              </div>
+                              <div class=" col-lg-4 col-md-4 col-sm-12 dept ">
+                                   <img src="image/evs2.jpg" class="d-block " alt="...">
+                                   <p>Department of Environental Science</p>
+                              </div>
+                              <div class=" col-lg-4 col-md-4 col-sm-12 dept ">
+                                   <img src="image/socialscience.jpg" class="d-block " alt="...">
+                                   <p>Department of Social Science</p>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </div>
+              </div>
+          </div>
+     </section>
+     </main>
+     
+     	<section  class="content ">
+		<div class="container pt-10 text-center">
+			
+			<h3>About FMU</h3><br>
+			<p>The Fakir Mohan University, Vyasa Vihar, Balasore was established by the Government of Odisha, under Section 32 of the Odisha Universities Act, 1989 (Act 5 of 1989) and it was notified vide the Government's Notification No. 973 dated 3rd July, 1999. The University has also been duly recognized by the UGC under section 2(f) of the UGC Act by the Notification No. F-9-1 / 2000 (CPP-I), dated 11th February 2000 as well as under section 12(B), vide UGC letter No. F.9-1 /2000 (CPP-I) dated 23rd December, 2005. It has also been accredited by the Association of Indian Universities, vide their letter No. Meet: SC: 261:2K/108693, dated 22nd August, 2000. The University is functioning from its present campus at Vyasa Vihar. New campus at Nuapadhi has already started functioning.   All the P.G. Departments of the University are computer based. Automation of the office and the library is going to be completed soon. </p>
+		</div>
+	</section>
+     
+     <footer>
+		@copyright2020FM University,All rights Reserved
+     </footer>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>

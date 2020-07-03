@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICT Department New </title>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+     <link href="../fontawesome-free-5.13.0-web/fontawesome/css/all.css" rel="stylesheet">
+     <link href="../fontawesome-free-5.13.0-web/fontawesome/css/fontawesome.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="css/headerAndFooter.css">
+      <link rel="stylesheet" href="css/stylestudentprofilepagenew.css">
+
+     <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script> 
+     <script src="https://code.jquery.com/jquery-1.7.min.js"></script>
+     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+     <script type="text/javascript" src="../jquery.loadTemplate-1.4.4.min.js"></script>
+      <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.js"></script>
+     <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/additional-methods.js"></script>
+
+      <script type="text/javascript" src="js/clock.js"></script>
+      <script type="text/javascript" src="js/studentprofile.js"></script>
+      <script type="text/javascript" src="js/adminlogin.js"></script>
+      
+</head>
+<body onLoad="initClock()">
+    <header class="header">
+		<nav class="navbar navbar-expand-lg  navbar-dark fixed-top  ">
+			<div class="container">
+			  <div class="navbar-brand ">
+	             <img src="image/fm.png" width="90" height="90" class="d-inline-block align-top" alt="">
+	              <span class="navbar-text" style="color:white">Fakir Mohan University<br> Balasore</label>
+	          </div>
+	          <div class=" clock justify-content-center" >
+	             <div class="clockbg">
+	                  <div id="timedate">
+	                       <a id="mon">January</a>
+	                       <a id="d">1</a>,
+	                       <a id="y">0</a><br />
+	                       <a id="h">12</a> :
+	                       <a id="m">00</a>:
+	                       <a id="s">00</a>
+	                    </div>
+	                  </div>
+	             </div>
+
+			  <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			   <span class="navbar-toggler-icon "></span>
+			  </button>
+			  
+
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			    <ul class="navbar-nav ml-auto  ">
+			      
+			      <li class="nav-item active">
+			       <span> <i class="fas fa-house-user"></i></span>&nbsp;&nbsp;<a class="" href="homepagenew.html">Home <span class="sr-only">(current)</span></a>
+			      </li>
+			      <li class="nav-item">
+			        <span><i class="fas fa-address-card"></i></span>&nbsp;&nbsp;<a class="" href="aboutpage">About</a>
+			      </li>
+			      <li class="nav-item">
+			        <span><i class="fas fa-address-book"></i></span>&nbsp;&nbsp;<a class="" href="#">Contact</a>
+			      </li>
+			    </ul>
+			  </div>
+			</div>
+         </nav>
+     
+	<!--<img src="image/fmugate3.jpg" class="image-fluid" width="100%" height="30%">-->
+</header>
+<!---------------------------header end------------------------------------->
+<!---------------------------main div start------------------------------------->
+    <main>
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-md-12 col-sm-12 stdprofilebox">
+    				<div class="butnbox">
+    					<a href="studentProfile.html" target="_blank">
+    						<button class="stdprofbtn sbtn1">Profile </button></a>
+	                 	<a href="#" target="_blank">
+	                 		<button class="stdprofbtn sbtn2">View Attendance</button></a>
+	                 	<a href="" target="_blank">
+	                 	    <button class="stdprofbtn sbtn3">Logout</button></a>
+	                </div>	<br><br>
+	                 	<div class="row">
+	                 		<div class="col-md-5 col-sm-12">
+	                 		    <div class="profpic">
+	                 		    	<img src="image/bg8.png" alt="image"><br>
+	                 		    	<button  class="ubtn">Update</button>
+	                 		    </div>
+	                 		</div>
+	                 		<div class="col-md-7 col-sm-12">
+	                 		    <div class="stddatabox">
+	                 		    	<ul class="stdDetailsholder">
+	                 		    		
+	                 		    	</ul>
+	                 		    </div>
+	                 		</div>
+	                 	</div>
+    			</div>	
+    		</div>	
+    	</div>
+    	 <script id="stdDetailstemplate">
+          
+             <li>Name:<span data-content="std_name"></span></li>
+             <li>Father Name:<span data-content="std_fname"></span></li>
+             <li>Mother Name:<span data-content="std_mname"></span></li>
+             <li>Phn no:<span data-content="std_no"></span></li>
+             <li>Gender:<span data-content="std_gender"></span></li>
+             <li>Sem:<span data-content="std_sem"></span></li> 
+             <li>Course:<span data-content="std_course"></span></li> 
+             <li>Class RollNo:<span data-content="std_classrollno"></span></li> 
+             <li>Exam RollNo:<span data-content="std_examrollno"></span></li>
+             <li>Registration No:<span data-content="std_regdno"></span></li> 
+             <li>Email:<span data-content="std_email"></span></li>          
+     </script>
+    </main>
+<!---------------------------main div end------------------------------------->
+<footer>
+		@copyright2020FM University,All rights Reserved
+</footer>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</html>

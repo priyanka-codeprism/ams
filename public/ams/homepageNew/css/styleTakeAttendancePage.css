@@ -1,0 +1,43 @@
+
+  main{
+  width: 100%;
+ background:#ccc;
+  position: relative;  
+}
+ /*main:before{
+  content:"";
+  position: absolute;
+  top:0%;
+  bottom:0%;
+  left: 0%;
+   width:100%;
+   /*background-image:linear-gradient(57deg,#a517ba,#5f1782);*/
+   /*background: white;*/
+/*}*/
+.calender,.takeattendance{
+ 
+  color: black;
+  margin-top: 20px;  
+}
+.calender{
+   background: white;
+}
+.takeattendance{
+  height: 450px;
+  overflow: auto;
+}
+/*.takeattendance ul li{
+  list-style: none;
+  border: 1px solid;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}*/
+.table{
+  margin-left: 20px;
+  margin-top: 10px;
+  background: white;
+  font-size: 20px;
+}
