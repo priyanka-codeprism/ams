@@ -60,7 +60,13 @@
 			      </li>
 			      <li class="nav-item">
 			        <span><i class="fas fa-address-book"></i></span>&nbsp;&nbsp;<a class="" href="#">Contact</a>
-			      </li>
+				  </li>
+				  <li class="nav-item">
+					<span><i class="fas fa-house-user"></i></span>&nbsp;&nbsp;<a class="" href="#">My Home</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="" href="#">Logout <span><i class="fas fa-sign-out-alt"></i></span></a>
+				  </li>
 			    </ul>
 			  </div>
 			</div>
@@ -72,14 +78,7 @@
 <!---------------------------main div start------------------------------------->
 <main class="">
 	<div class="container">
-		<div class="row">
-            <div class="col-md-12 col-sm-8 text_container text-center">
-                 <div  class="ict">
-                    <h2><span style="color: red">Welcome To</span><br>Department of Information And Communication Technology</h2>
-                    <!--<img class="image1" src="image/depticon.png">-->
-                 </div>
-            </div>
-        </div>
+		
         <div class="row blocks">
         	<div class=" col-lg-4 col-md-4 col-sm-12">
         		<div class="loginblock">
@@ -187,7 +186,7 @@
            <div class="modal-content">
                 <div class="modal-body">
                 	<button type="button" class="close" data-dismiss="modal">&times;</button><br>
-                    <h2 class="login-text text-center">Student Login</h2> 
+                    <h2 class="login-text text-center">Student Login</h2>
                     <form class="form-container login-form" id="regForm">      
 			              <div class="form-group">
 			                <label>Student Id</label>
@@ -206,8 +205,8 @@
 			              <div class="invaliddata">
 			              	 id or password is incorrect,please try again later
 			              </div></div>
-			              <div id="signupbtn" class="signupbtn"style="cursor: pointer;float: left;">signup</div>
-			              <span><a data-toggle="modal" href="#forgotPasswordModal" style="float: right;">Forgot Password</a></span>
+			              <div id="signupbtn" class="signupbtn"style="cursor: pointer;float: left;color:blue;">signup</div>
+			              <span><a data-toggle="modal" href="#stdrgstrsuccesfulModal" style="float: right;">Forgot Password</a></span>
                     </form>
                 </div>
             </div>   
@@ -322,7 +321,7 @@
 	                              <!--<img id="blah"src="http:placehold.it/180" alt="your image"/>-->
                                 </div>
                         <!--<input type="button" name="next" class="next action-button " value="Next "/>-->
-                                <button class="submit-btn" id="stdsignupbtn" data-toogle="modal"onclick="readStudentData()" >Submit</button>
+                                <button class="submit-btn" id="stdsignupbtn" data-toogle="modal" >Submit</button>
                                 <a><input type="button" value="Previous" id="previous" class="prvsbtn"></a>
                                 <button id="preview"class="Preview-btn" data-toggle="modal" >Preview</button>		                        
                           </fieldset>
@@ -338,7 +337,7 @@
         <div class="modal-dialog  modal-dialog-centered modal-dialog-scrollable" style="height:550px;">
             <div class="modal-content">
 	            <div class="modal-header">       	
-                	<h2>Student Details </h2>
+                	<h2 style="color:blueviolet">Student Details </h2>
                 	<button type="button" class="close" data-dismiss="modal">&times;</button><br/>
 	            </div>                
                 <div class="modal-body" >
@@ -348,8 +347,8 @@
                 	
                 </div>
                 <div class="modal-footer">
-                	<button>ok</button>
-                	<button>Edit</button>
+                	<button class="okbtn">ok</button>
+                	
                 </div>
             </div>
         </div>
@@ -363,8 +362,10 @@
                 <div class="modal-body">
                 	<button type="button" class="close" data-dismiss="modal">&times;</button><br/>
                 	<div>
-                		<h3>successfully Registered</h3><br/><br/>
-                		<div>click here to login</div>
+						<h2 class="text-center">successfully Registered</h2>
+						<div style="margin-left: 150px;">
+							<img src="image/tick1.gif" style="width:100px;height:100px"></div><br>
+                		<div class="text-center" style="font-size: 20px;color:blue"><a>click here to login</a></div>
                 	</div>
                 </div>
             </div>   

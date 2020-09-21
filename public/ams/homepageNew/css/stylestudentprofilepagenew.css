@@ -1,29 +1,36 @@
 .profpic{
-	border: 1px solid;
+	/*border: 1px solid;*/
 	margin: 0px;
+	display: flex;
+	justify-content: center;
 }
 .profpic img{
-	height: 200px;
+	border: 1px solid blue;
+	height: 220px;
 	width: 200px;
-	padding: 10px;
+	padding: 30px 10;
+	margin-top: 20px;
 }
 .butnbox{
 	margin-top: -18px;
 }
-.sbtn1{background: red;}
-.sbtn2{background: green;}
-.sbtn3{background: blue;}
+.sbtn2{background: rgb(241, 17, 17);}
+.sbtn1{background: green;}
+.sbtn3{background: #f7d025;}
 .ubtn{
-	border: none;
-	background: yellow;
-	margin: 10px;
-	padding: 5px 25px;
+	border: 1px solid blue;
+	background: rgb(6, 74, 221);
+	margin: 10px 150px;
+	padding: 5px 30px;
+	color: white;
+	display: flex;
+	justify-content: center;
 }
 .stdprofbtn{
 	font-size: 16px; 
 	border: none;
-	padding: 5px 10px;
-	background: red;
+	padding: 5px 20px;
+	/*background: red;*/
 	color: white;
 	
 	z-index: 1;
@@ -31,16 +38,37 @@
 .stdprofbtn:hover{
 	opacity: 1;
 }
-
-
 .stdprofilebox{
 	border: 1px solid;
 	margin-top: 30px; 
+}
+.stddatabox{
+	margin-top: 0;
 }
 .stddatabox ul{
 	list-style: none;
 }
 .stddatabox ul li{
-	border: 1px solid;
-	padding: 5px;
+	/*border: 1px solid;
+	padding: 5px;*/
+	margin: 5px;
+	font-size:18px ;
 }
+table,td,tr{
+	/*border:1px solid;*/
+}
+table{
+	
+	font-size: 18px;
+	text-align: left;
+	min-width:90%;
+	
+	
+}
+@media screen and (max-width: 420px){
+	.profpic img{
+		
+		padding: 0;
+		
+	}
+ }

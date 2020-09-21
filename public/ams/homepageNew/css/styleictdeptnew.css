@@ -15,7 +15,7 @@
  /*text-transform: uppercase;*/
 }
 .blocks{
-  margin: 50px 0;
+  padding: 100px 0;
 }
 .fa-user-graduate,.fa-user-shield,.fa-user-tie{
    color: rgba(20, 22, 152,0.7);
@@ -64,7 +64,8 @@
 .login-text{
   margin-bottom: 20px;
   padding: 20px;
-  color: #ff5722;
+  color: #fc430b;
+  
 }
 .login-form{
    padding: 10px;
@@ -72,10 +73,13 @@
 .loginbtn{
   padding: 10px 30px;
   border: none;
-  background: #ff5722;
+  background: #0c8129;
+  color: white;
+  border-radius: 10px;
 }
 .signupbtn{
   font-size: 20px;
+  
 }
 /****************************Student Login modal end**************************/
 
@@ -91,7 +95,7 @@
   font-weight: normal;
 
 }
-#myform input[type=text],input[type=password],input[type=email],input[type=date],
+#myform input[type=text],#myform input[type=password],input[type=email],input[type=date],
 input[type=file],
 #myform textarea {
     padding: 8px 15px 8px 15px;
@@ -144,3 +148,10 @@ input[type=file]{
   padding: 10px;
 }
 /****************************Student register modal end**************************/
+/****************************Student preview modal start**************************/
+.okbtn{
+  padding:5px 15px;
+  color:white;
+  background: #0c8129;
+}
+/****************************Student preview modal end**************************/

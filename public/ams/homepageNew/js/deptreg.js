@@ -194,7 +194,7 @@
            });
 			//hide signup modal and show preview modal
             $("#preview").click(function(){
-				//$("#stdSignupModal").modal("hide");
+				$("#stdSignupModal").modal("hide");
 			    $("#stdPreviewModal").modal("show");
 			});
 			

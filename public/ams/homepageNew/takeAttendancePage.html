@@ -61,6 +61,12 @@
             <li class="nav-item">
               <span><i class="fas fa-address-book"></i></span>&nbsp;&nbsp;<a class="" href="#">Contact</a>
             </li>
+            <li class="nav-item">
+              <span><i class="fas fa-house-user"></i></span>&nbsp;&nbsp;<a class="" href="#">My Home</a>
+              </li>
+              <li class="nav-item">
+              <a class="" href="#">Logout <span><i class="fas fa-sign-out-alt"></i></span></a>
+              </li>
           </ul>
         </div>
       </div>
@@ -89,7 +95,7 @@
                   </table>
                   
                   <div class="footer-container-calendar">
-                      <label for="month">Jump To: </label>
+                      <!--<label for="month">Jump To: </label>-->
                       <select id="month" onchange="jump()">
                           <option value=0>Jan</option>
                           <option value=1>Feb</option>
@@ -112,23 +118,81 @@
           <div class="col-md-7 col-sm-12">
                 <div class="takeattendance">
                  <!-- <ul class="nameholder">
-                    
                   </ul>-->
-                      <table class="table table-responsive table-bordered" >
+                  <div class="heading">
+                 <div> <h5>Paper Code : T504</h5></div>
+                  <div>
+                    <lable> <b>No of Class</b> </lable>
+                    <input type="number" name="">
+                  </div><br>
+                  <div>
+                    <input type="checkbox" class="check"> Select All as Present
+                  </div>
+                  </div>
+                  <div class="table-responsive ">
+                  
+                      <table class="table  table-bordered  table-hover" >
+                        
                         <thead>
-                          <tr>    
+                          <tr>  
+                              <th>S.No</th>  
                               <th>NAME</th>
                               <th>ROLL NO</th>
-                              <th>STATUS</th>
+                              <th colspan="2">STATUS</th>
                           </tr>
                         </thead>
-                        <tbody class="nameholder"></tbody>
+                        <tbody class="nameholder">
+                          <tr>
+                            <td>1</td>
+                            <td>Jayashree Mohanty</td>
+                            <td>ICT/11/17</td>
+                            <td> <input type="radio" name="rollcal"> Present</td>
+                            <td> <input type="radio" name="rollcal"> Absent</td>
+                          </tr>
+                          <tr>
+                            <td>2</td>
+                            <td>M.Madhumurchhana</td>
+                            <td>ICT/12/17</td>
+                            <td> <input type="radio" name="rollcal1"> Present</td>
+                            <td> <input type="radio" name="rollcal1"> Absent</td>
+                          </tr>
+                          <tr>
+                            <td>3</td>
+                            <td>Pooja Panigrahi</td>
+                            <td>ICT/15/17</td>
+                            <td> <input type="radio" name="rollcal2"> Present</td>
+                            <td> <input type="radio" name="rollcal2"> Absent</td>
+                          </tr>
+                          <tr>
+                            <td>4</td>
+                            <td>Priyanka Pradhan</td>
+                            <td>ICT/17/17</td>
+                            <td> <input type="radio" name="rollcal3"> Present</td>
+                            <td> <input type="radio" name="rollcal3"> Absent</td>
+                          </tr>
+                          
+                          <tr>
+                            <td>5</td>
+                            <td>Sasmita Das</td>
+                            <td>ICT/23/17</td>
+                            <td> <input type="radio" name="rollcal4"> Present</td>
+                            <td> <input type="radio" name="rollcal4"> Absent</td>
+                          </tr>
+                          <tr >
+                            <td colspan="5" class="text-center"><button class="takeattendancebtn">Save</button></td>  
+                           </tr>
+                        </tbody>
+
                       </table>
+                      <!--<div class="text-center t1"><button class="takeattendancebtn">Save</button>
+                      </div><br><br>-->
+
+                      </div>
                 </div>
           </div>
        </div>  
      </div>
-     <script id="stdNametemplate">
+     <!--<script id="stdNametemplate">
           <tr>
              <td><span data-content="std_name"></span></div>
              <td><span data-content="std_classrollno"></span></div>
@@ -137,7 +201,7 @@
                 <input type="radio" name="rollcal">absent
               </td>
          </tr>
-     </script>
+     </script>-->
 
 </main>
 <footer>

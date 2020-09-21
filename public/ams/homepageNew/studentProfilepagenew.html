@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ICT Department New </title>
+    <title>Student Profile page New </title>
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
      <link href="../fontawesome-free-5.13.0-web/fontawesome/css/all.css" rel="stylesheet">
      <link href="../fontawesome-free-5.13.0-web/fontawesome/css/fontawesome.min.css" rel="stylesheet">
@@ -18,7 +18,7 @@
      <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/additional-methods.js"></script>
 
       <script type="text/javascript" src="js/clock.js"></script>
-      <script type="text/javascript" src="js/studentprofile.js"></script>
+     <!-- <script type="text/javascript" src="js/studentprofile.js"></script>-->
       <script type="text/javascript" src="js/adminlogin.js"></script>
       
 </head>
@@ -59,7 +59,13 @@
 			      </li>
 			      <li class="nav-item">
 			        <span><i class="fas fa-address-book"></i></span>&nbsp;&nbsp;<a class="" href="#">Contact</a>
-			      </li>
+				  </li>
+				  <li class="nav-item">
+					<span><i class="fas fa-house-user"></i></span>&nbsp;&nbsp;<a class="" href="#">My Home</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="" href="#">Logout <span><i class="fas fa-sign-out-alt"></i></span></a>
+				  </li>
 			    </ul>
 			  </div>
 			</div>
@@ -78,21 +84,82 @@
     						<button class="stdprofbtn sbtn1">Profile </button></a>
 	                 	<a href="#" target="_blank">
 	                 		<button class="stdprofbtn sbtn2">View Attendance</button></a>
-	                 	<a href="" target="_blank">
-	                 	    <button class="stdprofbtn sbtn3">Logout</button></a>
-	                </div>	<br><br>
+	                 	
+					</div><br>
+					<p class=" text-centre" style="font-size: 30px;"><b>Pooja Panigrahi</b></p>
+					<!--<div style="width: 100%;margin-left: 0px;">
+						
+                         
+					</div>-->
 	                 	<div class="row">
 	                 		<div class="col-md-5 col-sm-12">
 	                 		    <div class="profpic">
-	                 		    	<img src="image/bg8.png" alt="image"><br>
-	                 		    	<button  class="ubtn">Update</button>
-	                 		    </div>
+	                 		    	<img src="image/p1.jpg" alt="image"><br>	
+								 </div>
+								 <div>
+                                    <button  class="ubtn">Update <span><i class="fas fa-pencil-alt"></i></span></button>
+								 </div>
 	                 		</div>
 	                 		<div class="col-md-7 col-sm-12">
 	                 		    <div class="stddatabox">
-	                 		    	<ul class="stdDetailsholder">
-	                 		    		
-	                 		    	</ul>
+	                 		    	
+									 <table >
+										 <tbody>
+											 <tr>
+												 <td><strong>Name:</strong></td>
+												 <td>Pooja Panigrahi</td>
+											 </tr>
+											 <tr>
+												<td><strong>Father's Name :</strong>  </td>
+												<td>Prakash Panigrahi</td>
+											</tr>
+											<tr>
+												<td><strong>Mother Name : </strong></td>
+												<td>Bimala Panigrahi</td>
+											</tr>
+											<tr>
+												<td><strong>Address : </strong></td>
+												<td>Remuna,Balasore</td>
+											</tr>
+											<tr>
+												<td><strong>Phn no : </strong></td>
+												<td>7539826156</td>
+											</tr>
+											<tr>
+												<td><strong>Gender :</strong> </td>
+												<td>Female</td>
+											</tr>
+											<tr>
+												<td><strong>DOB :</strong> </td>
+												<td>17/04/1996</td>
+											</tr>
+											<tr>
+												<td><strong>Semestar : </strong></td>
+												<td>6th</td>
+											</tr>
+											<tr>
+												<td><strong>Programme :</strong> </td>
+												<td>MCA</td>
+											</tr>
+											<tr>
+												<td><strong>Class RollNo :</strong> </td>
+												<td>ICT/15/17</td>
+											</tr>
+											<tr>
+												<td><strong>Exam RollNo : </strong></td>
+												<td>15101FT176020</td>
+											</tr>
+											<tr>
+												<td><strong>Registration No :</strong> </td>
+												<td>123568</td>
+											</tr>
+											<tr>
+												<td><strong>Email : </strong></td>
+												<td>panigrahipooja@gmail.com</td>
+											</tr>
+											
+										 </tbody>
+									 </table><br>
 	                 		    </div>
 	                 		</div>
 	                 	</div>
@@ -101,19 +168,9 @@
     	</div>
     	 <script id="stdDetailstemplate">
           
-             <li>Name:<span data-content="std_name"></span></li>
-             <li>Father Name:<span data-content="std_fname"></span></li>
-             <li>Mother Name:<span data-content="std_mname"></span></li>
-             <li>Phn no:<span data-content="std_no"></span></li>
-             <li>Gender:<span data-content="std_gender"></span></li>
-             <li>Sem:<span data-content="std_sem"></span></li> 
-             <li>Course:<span data-content="std_course"></span></li> 
-             <li>Class RollNo:<span data-content="std_classrollno"></span></li> 
-             <li>Exam RollNo:<span data-content="std_examrollno"></span></li>
-             <li>Registration No:<span data-content="std_regdno"></span></li> 
-             <li>Email:<span data-content="std_email"></span></li>          
+                      
      </script>
-    </main>
+    </main><br><br>
 <!---------------------------main div end------------------------------------->
 <footer>
 		@copyright2020FM University,All rights Reserved

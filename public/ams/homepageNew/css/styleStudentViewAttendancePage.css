@@ -1,0 +1,43 @@
+
+  
+
+ .select1,.tcontainer,.btncontainer{
+    margin-top:10px;
+    color: black;
+  }
+  .select1{
+    padding-left: 20px;
+    width: 100%;
+  }
+  .btncontainer{
+    padding-left: 20px;
+    /*border-bottom: 1px solid black:*/ 
+  }
+  .btncontainer button{
+    padding: 5px 15px;
+    background: blue; 
+    color: white;
+    border: none;
+  }
+  .tcontainer{
+    padding-left: 5%; 
+  }
+  .table{
+    width: 95%;
+    margin-left: 0px: 
+    border: 1px solid black;
+    background: white;
+  }
+  .button button{
+    position: absolute;
+    margin-left: 40%; 
+    padding: 5px 45px;
+    font-size: 20px;
+    background: green;
+    color: white;
+
+  }
+  thead{
+    border: 1px solid;
+  }
+

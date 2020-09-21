@@ -1,0 +1,50 @@
+.viewbtn{
+	padding: 10px 20px;
+	border: none;
+	border-radius: 0px;
+	color: white;
+}
+.vbtn1{background:  #df1313;}
+.vbtn2{background: green ;}
+.vbtn3{background: #df1313;}
+.viewbox{
+	border: 1px solid white;
+	margin-top: 20px;
+	box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
+}
+.butnbox{
+	margin: 10px 10px;
+
+}
+.viewbox ul{
+	list-style: none;
+	margin: 10px;
+}
+.viewbox ul li{
+	padding: 5px 20px;
+	/*border: 1px solid white;*/
+	margin: 5px 0px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
+}
+
+.l1 img{
+     height: 50px;
+     width: 50px;
+}
+
+.list{
+	display: flex;
+	justify-content: space-between;
+	padding: : 0px,20px;
+}
+.u1{
+	padding: 5px 15px;
+	margin-top: 20%;
+	border: none;
+	background: blue;
+	color: white;
+}
+/*thead{
+	text-align: center;
+}*/
+

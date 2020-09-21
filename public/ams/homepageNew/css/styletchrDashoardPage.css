@@ -1,6 +1,6 @@
 main{
         /*background-image: linear-gradient(57deg,#ff5722,#ff9800);*/
-        background-color: #ccc;
+        background-color: white;
         /*background-image: url(b.jpg);*/
         background-repeat: no-repeat; 
         position: relative;
@@ -24,8 +24,8 @@ main{
 }
 
 .image1{
-   height: 150px;
-   width: 150px;
+   height: 100px;
+   width: 100px;
    border: 2px solid white;
    position: relative;
    left: -2%;

@@ -107,12 +107,12 @@ function validateAdmin(){
 		stdLoginData.student_id=$("#stdid").val();
 		stdLoginData.student_pwd=$("#stdpwd").val();
 		console.log(stdLoginData);
-		if ($("#check3").is(":checked")){
+		/*if ($("#check3").is(":checked")){
 			localStorage.setItem("stdLoginData", JSON.stringify(stdLoginData));
 			console.log(localStorage.getItem("stdLoginData"))
 	    }else {
 		    localStorage.removeItem("stdLoginData")
-	     }
+	     }*/
 
 		var loginReq = $.ajax({
 				url: 'http://localhost:8083/student/data/validation',
@@ -133,5 +133,6 @@ function validateAdmin(){
     }//function end
     function pageRedirects() {
      window.location.href = "studentProfilepagenew.html";
+     localStorage.setItem("stdLoginData", JSON.stringify(stdLoginData));
    } 
    

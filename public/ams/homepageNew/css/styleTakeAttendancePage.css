@@ -4,16 +4,7 @@
  background:#ccc;
   position: relative;  
 }
- /*main:before{
-  content:"";
-  position: absolute;
-  top:0%;
-  bottom:0%;
-  left: 0%;
-   width:100%;
-   /*background-image:linear-gradient(57deg,#a517ba,#5f1782);*/
-   /*background: white;*/
-/*}*/
+ 
 .calender,.takeattendance{
  
   color: black;
@@ -23,21 +14,37 @@
    background: white;
 }
 .takeattendance{
-  height: 450px;
-  overflow: auto;
+  /*height: 450px;*/
+  /*overflow: auto;*/
+
 }
-/*.takeattendance ul li{
-  list-style: none;
-  border: 1px solid;
-  padding: 10px;
-  margin: 10px;
-  display: flex;
-  justify-content: space-between;
-  font-size: 20px;
-}*/
+.heading{
+  background: white;
+  padding: 10px 10px; 
+}
+
 .table{
-  margin-left: 20px;
+  margin-left: 0px;
   margin-top: 10px;
   background: white;
-  font-size: 20px;
+  font-size: 16px;
 }
+.takeattendancebtn{
+  border: none;
+  padding: 10px 30px;
+  background: green;
+  color:white;
+}
+.t1{
+ background: white;
+ margin-top: 0;
+}
+tbody{
+  height:200px;
+  overflow-y:auto;
+}
+.check{
+  background: transparent;
+}
+
+ 
